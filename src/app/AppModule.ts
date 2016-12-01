@@ -7,7 +7,7 @@ import { AppComponent } from './AppCmp';
 import { RouterModule } from '@angular/router';
 import { AppRoutes } from './AppRoutes';
 import { HomeCmp } from './home/HomeCmp';
-import { PageNotFoundCmp } from './PageNotFoundCmp';
+import { PageNotFoundCmp } from './404Page/PageNotFoundCmp';
 import { AboutCmp } from './about/AboutCmp';
 import { ContactCmp } from './contact/ContactCmp';
 import { PortfolioCmp } from './portfolio/PortfolioCmp';

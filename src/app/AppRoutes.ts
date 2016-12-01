@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { PageNotFoundCmp } from './PageNotFoundCmp';
+import { PageNotFoundCmp } from './404Page/PageNotFoundCmp';
 import { HomeCmp } from './home/HomeCmp';
 import { PortfolioCmp } from './portfolio/PortfolioCmp';
 import { ContactCmp } from './contact/ContactCmp';
