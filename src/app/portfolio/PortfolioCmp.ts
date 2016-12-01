@@ -1,3 +1,9 @@
-/**
- * Created by junjun on 11/30/16.
- */
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'portfolio-cmp',
+    template: `portfolio-page`
+})
+
+export class PortfolioCmp {}
+
