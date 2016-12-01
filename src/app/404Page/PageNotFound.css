@@ -1,0 +1,21 @@
+.page-not-found-div {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E4E4E4;
+    height: 95vh;
+    margin: 0;
+}
+
+.page-not-found-404 {
+    margin-top: 10%;
+    font-size: 350px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    color: black;
+}
+
+.page-not-found-text {
+    font-size: 14px;
+    font-style: italic;
+    color: black;
+}
+

@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'page-not-found-cmp',
-    template: `page not found`
+    templateUrl: 'PageNotFound.html',
+    styleUrls: ['PageNotFound.css']
 })
 
 export class PageNotFoundCmp {}
