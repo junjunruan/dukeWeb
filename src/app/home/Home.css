@@ -1,0 +1,43 @@
+.home-div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bg {
+    background-image: url("../../imgs/background.jpg");
+    background-size: cover;
+    height: 95vh;
+}
+
+.job-title {
+    padding-top: 20%;
+    font-size: 65px;
+    color: gray;
+    letter-spacing: 0.05em;
+    line-height: 1em;
+}
+
+.name-div {
+    font-size: 34px;
+    color: gray;
+}
+
+.download-div {
+    padding: 20px;
+}
+
+.download-resume {
+    color: gray;
+    border: 2px solid #fff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.download-resume:hover {
+    color: black;
+    background-color: white;
+}
+
+.white-div {
+    height: 600px;
+}

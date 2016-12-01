@@ -1,33 +1,37 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-        <img width="40px" height="30px" alt="Brand" src="../imgs/logo.jpg">
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-left">
-        <li class="active"><a routerLink={{_home}}>Home<span class="sr-only">(current)</span></a></li>
-        <li><a routerLink={{_portfolio}}>Portfolio</a></li>
-        <li><a routerLink={{_about}}>About</a></li>
-        <li><a routerLink={{_contact}}>Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<router-outlet></router-outlet>
+<main>
+  <nav class="navbar navbar-default nav-section">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img width="40px" height="30px" alt="Brand" src="../imgs/logo.jpg" alt="image not found">
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="active"><a routerLink={{_home}}>Home<span class="sr-only">(current)</span></a></li>
+          <li><a routerLink={{_resume}}>Resume</a></li>
+          <li><a routerLink={{_portfolio}}>Portfolio</a></li>
+          <li><a routerLink={{_about}}>About</a></li>
+          <li><a routerLink={{_contact}}>Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Github</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <router-outlet></router-outlet>
+</main>
 
 
 
