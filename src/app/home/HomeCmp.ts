@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'home-cmp',
-    templateUrl: 'app/Home.html'
+    templateUrl: 'Home.html'
 })
 
 export class HomeCmp {}
+
