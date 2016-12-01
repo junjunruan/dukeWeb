@@ -1,3 +1,8 @@
-/**
- * Created by junjun on 11/30/16.
- */
+export const RoutesPathName: any = {
+    'home': 'home',
+    'about': 'about',
+    'contact': 'contact',
+    'portfolio': 'portfolio',
+    'resume': 'resume'
+};
+
