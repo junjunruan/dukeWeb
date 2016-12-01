@@ -13,7 +13,5 @@ export class AppComponent {
   private _about: string = '/' + RoutesPathName.about;
   private _contact: string = '/' + RoutesPathName.contact;
 
-  private title: string = 'app works!';
-
 }
 
