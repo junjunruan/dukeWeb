@@ -21,7 +21,7 @@
       true,
       140
     ],
-    "member-access": false,
+    "member-access": [true, "check-accessor", "check-constructor"],
     "member-ordering": [
       true,
       "static-before-instance",
@@ -49,7 +49,7 @@
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unused-expression": true,
-    "no-unused-variable": true,
+    "no-unused-variable": false,
     "no-unreachable": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
@@ -73,6 +73,14 @@
       true,
       "allow-null-check"
     ],
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "member-variable-declaration",
+      "property-declaration",
+      "variable-declaration"
+    ],
     "typedef-whitespace": [
       true,
       {
@@ -81,6 +89,13 @@
         "parameter": "nospace",
         "property-declaration": "nospace",
         "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
       }
     ],
     "variable-name": false,
@@ -93,8 +108,6 @@
       "check-type"
     ],
 
-    "directive-selector-prefix": [true, "app"],
-    "component-selector-prefix": [true, "app"],
     "directive-selector-name": [true, "camelCase"],
     "component-selector-name": [true, "kebab-case"],
     "directive-selector-type": [true, "attribute"],
@@ -106,8 +119,6 @@
     "no-output-rename": true,
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
-    "component-class-suffix": true,
-    "directive-class-suffix": true,
     "templates-use-public": true,
     "invoke-injectable": true
   }
