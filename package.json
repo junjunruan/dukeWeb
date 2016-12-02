@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "2.2.1",
     "@angular/router": "3.2.1",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.14",
-    "bootstrap": "3.3.7",
+    "bootstrap": "^4.0.0-alpha.5",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "1.12.4",
