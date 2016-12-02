@@ -9,15 +9,18 @@
 }
 
 .job-title {
-    padding-top: 20%;
-    font-size: 65px;
+    padding-top: 18%;
+    font-size: 40px;
     color: gray;
-    letter-spacing: 0.05em;
-    line-height: 1em;
+    letter-spacing: 0.07em;
+    line-height: 2em;
+    text-shadow: 3px 3px 3px #aaa;
 }
 
 .name-div {
     font-size: 34px;
+    letter-spacing: 0.07em;
+    line-height: 1em;
     color: gray;
 }
 
